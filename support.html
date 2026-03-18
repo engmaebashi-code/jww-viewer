@@ -1,80 +1,81 @@
 <!DOCTYPE html>
-    h3{color:#c9d1d9;font-size:16px;margin:20px 0 8px}
-    p{margin-bottom:16px;font-size:15px}
-    .subtitle{color:#8b949e;font-size:14px;margin-bottom:32px}
-    .app-name{color:#3fb950;font-weight:bold}
-    a{color:#58a6ff;text-decoration:none}
-    a:hover{text-decoration:underline}
-    .faq{background:#161b22;border:1px solid #21262d;border-radius:8px;padding:20px;margin-bottom:16px}
-    .faq-q{color:#f0f6fc;font-weight:bold;margin-bottom:8px}
-    .faq-a{color:#8b949e;font-size:14px}
-    .contact-box{background:#161b22;border:1px solid #21262d;border-radius:8px;padding:24px;text-align:center;margin-top:24px}
-    .contact-box a{font-size:18px;font-weight:bold}
-    .features{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:16px 0}
-    .feat{background:#161b22;border:1px solid #21262d;border-radius:6px;padding:12px;font-size:14px}
-    .feat-icon{font-size:20px;margin-bottom:4px}
-    footer{margin-top:48px;padding-top:16px;border-top:1px solid #21262d;color:#8b949e;font-size:13px;text-align:center}
-    </style>
-  </head>
-  <body>
-    <div class="container">
-      <h1>JWW Viewer サポート</h1>
-    <p class="subtitle">Jw_cad図面ビューア for iPad</p>
-    
-    <h2>アプリについて</h2>
-    <p><span class="app-name">JWW Viewer</span>は、Jw_cadの図面ファイル（.jww）をiPadで閲覧・計測できるビューアアプリです。建築・設備の現場での図面確認に最適です。</p>
-    
-    <div class="features">
-    <div class="feat"><div class="feat-icon">&#x1F4C2;</div>JWWファイル読み込み</div>
-    <div class="feat"><div class="feat-icon">&#x1F50D;</div>ピンチズーム・パン</div>
-    <div class="feat"><div class="feat-icon">&#x1F4CF;</div>スナップ計測</div>
-    <div class="feat"><div class="feat-icon">&#x1F4DA;</div>レイヤー切替</div>
-    <div class="feat"><div class="feat-icon">&#x2B55;</div>端点・交点スナップ</div>
-    <div class="feat"><div class="feat-icon">&#x2708;&#xFE0F;</div>オフライン動作</div>
-    </div>
-    
-    <h2>よくある質問</h2>
-    
-    <div class="faq">
-    <p class="faq-q">Q. 対応しているファイル形式は？</p>
-    <p class="faq-a">A. Jw_cadのJWWファイル（.jww）に対応しています。DXF、DWG等の他形式には対応していません。</p>
-    </div>
-    
-    <div class="faq">
-    <p class="faq-q">Q. 図面を編集できますか？</p>
-    <p class="faq-a">A. 本アプリは閲覧・計測専用です。図面の編集機能はありません。</p>
-    </div>
-    
-    <div class="faq">
-    <p class="faq-q">Q. ブロック図形が表示されません</p>
-    <p class="faq-a">A. CDataBlock（ブロック図形・グループ化された図形）は現在のバージョンでは未対応です。今後のアップデートで対応予定です。</p>
-    </div>
-    
-    <div class="faq">
-    <p class="faq-q">Q. 計測機能の使い方は？</p>
-    <p class="faq-a">A. ツールバーの「計測」ボタンをタップし、スナップをONにして図面上の2点をタップすると、距離が表示されます。端点には緑のマーク、交点には黄色のマークで自動吸着します。</p>
-    </div>
-    
-    <div class="faq">
-    <p class="faq-q">Q. インターネット接続は必要ですか？</p>
-    <p class="faq-a">A. いいえ。本アプリは完全にオフラインで動作します。</p>
-    </div>
-    
-    <div class="faq">
-    <p class="faq-q">Q. データは収集されますか？</p>
-    <p class="faq-a">A. いいえ。本アプリは個人情報やファイルデータを一切収集・送信しません。すべてのデータはお使いの端末上で処理されます。詳しくは<a href="privacy.html">プライバシーポリシー</a>をご覧ください。</p>
-    </div>
-    
-    <h2>お問い合わせ</h2>
-    <p>不具合の報告、機能のご要望、その他ご質問がありましたら、お気軽にメールでご連絡ください。</p>
-    
-    <div class="contact-box">
-    <p>メールでのお問い合わせ</p>
-    <a href="mailto:eeng0424@gmail.com">eeng0424@gmail.com</a>
-    </div>
-    
-    <footer>
-      &copy; 2026 JWW Viewer. All rights reserved.<br>
-      <a href="privacy.html">プライバシーポリシー</a>
-    </footer>
-    </div>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JWW Viewer - サポート</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Hiragino Sans','Hiragino Kaku Gothic ProN',sans-serif;background:#0d1117;color:#c9d1d9;line-height:1.8;padding:40px 20px}
+.container{max-width:720px;margin:0 auto}
+h1{color:#58a6ff;font-size:24px;margin-bottom:8px}
+h2{color:#58a6ff;font-size:18px;margin:32px 0 12px;padding-bottom:6px;border-bottom:1px solid #21262d}
+h3{color:#c9d1d9;font-size:16px;margin:20px 0 8px}
+p{margin-bottom:16px;font-size:15px}
+.subtitle{color:#8b949e;font-size:14px;margin-bottom:32px}
+.app-name{color:#3fb950;font-weight:bold}
+a{color:#58a6ff;text-decoration:none}
+a:hover{text-decoration:underline}
+.faq{background:#161b22;border:1px solid #21262d;border-radius:8px;padding:20px;margin-bottom:16px}
+.faq-q{color:#f0f6fc;font-weight:bold;margin-bottom:8px}
+.faq-a{color:#8b949e;font-size:14px}
+.contact-box{background:#161b22;border:1px solid #21262d;border-radius:8px;padding:24px;text-align:center;margin-top:24px}
+.contact-box a{font-size:18px;font-weight:bold}
+.features{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:16px 0}
+.feat{background:#161b22;border:1px solid #21262d;border-radius:6px;padding:12px;font-size:14px}
+.feat-icon{font-size:20px;margin-bottom:4px}
+footer{margin-top:48px;padding-top:16px;border-top:1px solid #21262d;color:#8b949e;font-size:13px;text-align:center}
+</style>
+</head>
+<body>
+<div class="container">
+<h1>JWW Viewer サポート</h1>
+<p class="subtitle">Jw_cad図面ビューア for iPad</p>
+<h2>アプリについて</h2>
+<p><span class="app-name">JWW Viewer</span>は、Jw_cadの図面ファイル（.jww）をiPadで閲覧・計測できるビューアアプリです。建築・設備の現場での図面確認に最適です。</p>
+<div class="features">
+<div class="feat"><div class="feat-icon">📂</div>JWWファイル読み込み</div>
+<div class="feat"><div class="feat-icon">🔍</div>ピンチズーム・パン</div>
+<div class="feat"><div class="feat-icon">📏</div>スナップ計測</div>
+<div class="feat"><div class="feat-icon">📚</div>レイヤー切替</div>
+<div class="feat"><div class="feat-icon">⭕</div>端点・交点スナップ</div>
+<div class="feat"><div class="feat-icon">✈️</div>オフライン動作</div>
+</div>
+<h2>よくある質問</h2>
+<div class="faq">
+<p class="faq-q">Q. 対応しているファイル形式は？</p>
+<p class="faq-a">A. Jw_cadのJWWファイル（.jww）に対応しています。DXF、DWG等の他形式には対応していません。</p>
+</div>
+<div class="faq">
+<p class="faq-q">Q. 図面を編集できますか？</p>
+<p class="faq-a">A. 本アプリは閲覧・計測専用です。図面の編集機能はありません。</p>
+</div>
+<div class="faq">
+<p class="faq-q">Q. ブロック図形が表示されません</p>
+<p class="faq-a">A. CDataBlock（ブロック図形・グループ化された図形）は現在のバージョンでは未対応です。今後のアップデートで対応予定です。</p>
+</div>
+<div class="faq">
+<p class="faq-q">Q. 計測機能の使い方は？</p>
+<p class="faq-a">A. ツールバーの「計測」ボタンをタップし、スナップをONにして図面上の2点をタップすると、距離が表示されます。端点には緑のマーク、交点には黄色のマークで自動吸着します。</p>
+</div>
+<div class="faq">
+<p class="faq-q">Q. インターネット接続は必要ですか？</p>
+<p class="faq-a">A. いいえ。本アプリは完全にオフラインで動作します。</p>
+</div>
+<div class="faq">
+<p class="faq-q">Q. データは収集されますか？</p>
+<p class="faq-a">A. いいえ。本アプリは個人情報やファイルデータを一切収集・送信しません。すべてのデータはお使いの端末上で処理されます。詳しくは<a href="privacy.html">プライバシーポリシー</a>をご覧ください。</p>
+</div>
+<h2>お問い合わせ</h2>
+<p>不具合の報告、機能のご要望、その他ご質問がありましたら、お気軽にメールでご連絡ください。</p>
+<div class="contact-box">
+<p>メールでのお問い合わせ</p>
+<a href="mailto:eeng0424@gmail.com">eeng0424@gmail.com</a>
+</div>
+<footer>
+&copy; 2026 JWW Viewer. All rights reserved.<br>
+<a href="privacy.html">プライバシーポリシー</a>
+</footer>
+</div>
+</body>
+</html>
